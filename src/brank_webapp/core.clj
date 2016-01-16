@@ -1,16 +1,19 @@
 (ns brank-webapp.core
-    (:require [ring.adapter.jetty :as server]))
+    (:require [compojure.core :refer [routes]]
+      [ring.adapter.jetty :as server]
+      [brank-webapp.handler.main :refer [main-routes]]
+      [brank-webapp.handler.second :refer [second-routes]]))
 
 (defonce server (atom nil))
 
-(defn handler [req]
-      {:status 200
-       :headers {"Content-Type" "text/plain"}
-       :body "Hello, clojure on ring"})
+(def app
+  (routes
+    second-routes
+    main-routes))
 
 (defn start-server []
       (when-not @server
-                (reset! server (server/run-jetty handler {:port 3000 :join? false}))))
+                (reset! server (server/run-jetty #'app {:port 3000 :join? false}))))
 
 (defn stop-server []
       (when @server
