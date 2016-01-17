@@ -9,5 +9,6 @@ pom.xml.asc
 /.nrepl-port
 .hgignore
 .hg/
-.idea
+/.idea
 brank-webapp.iml
+.DS_Store

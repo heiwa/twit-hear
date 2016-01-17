@@ -1,14 +1,11 @@
 (ns brank-webapp.handler.main
     (:require [compojure.core :refer [defroutes GET]]
       [compojure.route :as route]
-      [brank-webapp.util.response :as res]))
-
-(defn home-view [req]
-      "<h1>ホーム画面</h1>
-       <a href=\"/second\">ページ遷移</a>")
+      [brank-webapp.util.response :as res]
+      [brank-webapp.view.main :as view]))
 
 (defn home [req]
-      (-> (home-view req)
+      (-> (view/home-view req)
           res/response
           res/html))
 
