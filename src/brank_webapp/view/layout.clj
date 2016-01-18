@@ -5,10 +5,10 @@
       (html5
         [:head
          [:title "brank-webapp-clj"]
-         (include-css "/css/normalize.css"
-                      "/css/papier-1.3.1.min.css"
-                      "/css/style.css")
-         (include-js "/js/main.js")]
+         (include-css "css/normalize.css"
+                      "css/papier-1.3.1.min.css"
+                      "css/style.css")
+         (include-js "js/main.js")]
         [:body
          [:header.top-bar.bg-green.depth-3 "brank-webapp-clj"]
          [:main body]]))

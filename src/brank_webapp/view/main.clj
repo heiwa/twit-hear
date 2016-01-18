@@ -4,6 +4,6 @@
 (defn home-view [req]
       (->> [:section.card
             [:h2 "ホーム画面"]
-            [:a {:href "/second"} "ページ遷移"]]
+            [:a {:href "second"} "ページ遷移"]]
           (layout/common req)))
 

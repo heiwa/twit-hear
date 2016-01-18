@@ -12,7 +12,9 @@
                  [mysql/mysql-connector-java "5.1.6"]]
   :plugins [[lein-environ "1.0.1"]
             [lein-ring "0.8.11"]]
-  :ring {:handler brank-webapp.core/app}
+  :ring {:handler brank-webapp.core/app
+         :uberwar-name "brank-webapp-clj.war"}
+  :war-resource-path "resources"
   ;:uberjar-name "brank-webapp-clj.jar"
   :profiles
   {:dev {:dependencies [[prone "0.8.2"]]
