@@ -12,3 +12,4 @@ pom.xml.asc
 /.idea
 twit-hear.iml
 .DS_Store
+twitter4j.properties
