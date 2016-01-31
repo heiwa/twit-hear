@@ -1,5 +1,5 @@
-(ns brank-webapp.main
-    (:require [brank-webapp.core :as core])
+(ns twit-hear.main
+    (:require [twit-hear.core :as core])
     (:gen-class))
 
 (defn -main [& {:as args}]

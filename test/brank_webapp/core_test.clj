@@ -1,6 +1,6 @@
-(ns brank-webapp.core-test
+(ns twit-hear.core-test
   (:require [clojure.test :refer :all]
-            [brank-webapp.core :refer :all]))
+            [twit-hear.core :refer :all]))
 
 (deftest a-test
   (testing "FIXME, I fail."

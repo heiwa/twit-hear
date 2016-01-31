@@ -1,5 +1,5 @@
-(ns brank-webapp.view.second
-    (:require [brank-webapp.view.layout :as layout]))
+(ns twit-hear.view.second
+    (:require [twit-hear.view.layout :as layout]))
 
 (defn second-page-view [req items]
       (->> `([:h1 "ページ遷移できた"]

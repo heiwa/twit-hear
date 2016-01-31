@@ -1,5 +1,5 @@
-(ns brank-webapp.view.main
-    (:require [brank-webapp.view.layout :as layout]))
+(ns twit-hear.view.main
+    (:require [twit-hear.view.layout :as layout]))
 
 (defn home-view [req]
       (->> [:section.card

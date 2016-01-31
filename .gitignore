@@ -10,5 +10,5 @@ pom.xml.asc
 .hgignore
 .hg/
 /.idea
-brank-webapp.iml
+twit-hear.iml
 .DS_Store

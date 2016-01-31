@@ -1,4 +1,4 @@
-(ns brank-webapp.middleware)
+(ns twit-hear.middleware)
 
 (defn- try-resolve [sym]
        (try

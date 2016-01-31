@@ -1,6 +1,6 @@
-(ns brank-webapp.dao.hoge-dao
+(ns twit-hear.dao.hoge-dao
     (:require [clojure.java.jdbc :as jdbc]
-      [brank-webapp.db :as db]))
+      [twit-hear.db :as db]))
 
 (defn save-item [title]
       (jdbc/insert! db/db-spec :tablename {:title title}))

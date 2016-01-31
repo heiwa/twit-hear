@@ -1,3 +1,3 @@
-# Introduction to brank-webapp
+# Introduction to twit-hear
 
 TODO: write [great documentation](http://jacobian.org/writing/what-to-write/)

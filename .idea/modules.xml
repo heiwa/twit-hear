@@ -2,7 +2,7 @@
 <project version="4">
   <component name="ProjectModuleManager">
     <modules>
-      <module fileurl="file://$PROJECT_DIR$/brank-webapp.iml" filepath="$PROJECT_DIR$/brank-webapp.iml" />
+      <module fileurl="file://$PROJECT_DIR$/twit-hear.iml" filepath="$PROJECT_DIR$/twit-hear.iml" />
     </modules>
   </component>
 </project>

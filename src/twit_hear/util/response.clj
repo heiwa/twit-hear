@@ -1,4 +1,4 @@
-(ns brank-webapp.util.response
+(ns twit-hear.util.response
     (:require [ring.util.response :as res]))
 
 (def response #'res/response)

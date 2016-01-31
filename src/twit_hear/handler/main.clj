@@ -1,8 +1,8 @@
-(ns brank-webapp.handler.main
+(ns twit-hear.handler.main
     (:require [compojure.core :refer [defroutes GET]]
       [compojure.route :as route]
-      [brank-webapp.util.response :as res]
-      [brank-webapp.view.main :as view]))
+      [twit-hear.util.response :as res]
+      [twit-hear.view.main :as view]))
 
 (defn home [req]
       (-> (view/home-view req)

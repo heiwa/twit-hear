@@ -1,10 +1,10 @@
-(ns brank-webapp.core
+(ns twit-hear.core
     (:require [compojure.core :refer [routes]]
       [ring.adapter.jetty :as server]
       [ring.middleware.resource :as resource]
-      [brank-webapp.handler.main :refer [main-routes]]
-      [brank-webapp.handler.second :refer [second-routes]]
-      [brank-webapp.middleware :refer [wrap-dev]]
+      [twit-hear.handler.main :refer [main-routes]]
+      [twit-hear.handler.second :refer [second-routes]]
+      [twit-hear.middleware :refer [wrap-dev]]
       [environ.core :refer [env]]))
 
 (defn- wrap [handler middleware opt]

@@ -1,7 +1,7 @@
-(ns brank-webapp.handler.second
+(ns twit-hear.handler.second
     (:require [compojure.core :refer [defroutes context GET POST]]
-      [brank-webapp.util.response :as res]
-      [brank-webapp.view.second :as view]))
+      [twit-hear.util.response :as res]
+      [twit-hear.view.second :as view]))
 
 (def items
   [{:title "楽しい"}
